@@ -1,6 +1,5 @@
 var disableHosts = [
-    "*.sinaimg.cn",
-
+    "*.sinaimg.cn"
 ];
 
 var disableUrls = [
@@ -8,7 +7,7 @@ var disableUrls = [
 ];
 
 var direct = "DIRECT";
-var disableProxy = "PROXY 127.0.0.1:9999";
+var disableProxy = "PROXY 8.8.8.8:53";
 var charlesProxy = "PROXY 127.0.0.1:8888";
 
 function FindProxyForURL(url, host) {
